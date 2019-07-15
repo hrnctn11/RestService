@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class Test {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/alibanu",
+    @RequestMapping(method = RequestMethod.GET, value = "/test",
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public ResponseEntity<?> getOwners() {
-        String string="Ali Kemal ve Banu benim en güzellerim.";
+        String string="test.";
         return ResponseEntity.ok(string);
     }
 }
