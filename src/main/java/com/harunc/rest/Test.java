@@ -17,7 +17,7 @@ public class Test {
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public ResponseEntity<?> getOwners() {
-        String string="test.";
+        String string="I am trying ";
         return ResponseEntity.ok(string);
     }
 }
